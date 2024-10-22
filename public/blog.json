@@ -1,0 +1,39 @@
+[
+    {
+      "cover-img": "../src/assets/images/1.jpg",
+      "title": "The Power of Mindfulness for Developer Productivity",
+      "author-img": "../src/assets/images/boy1.png",
+      "author-name": "Sarah Lee",
+      "post-date": "2024-10-01",
+      "hashtags": ["#Mindfulness", "#Productivity", "#Developers"],
+      "readtime": 6
+    },
+    {
+      "cover-img": "../src/assets/images/2.png",
+      "title": "Unlocking Creative Thinking for Software Solutions",
+      "author-img": "../src/assets/images/boy2.png",
+      "author-name": "David Jones",
+      "post-date": "2024-09-25",
+      "hashtags": ["#CreativeCoding", "#ProblemSolving", "#Software"],
+      "readtime": 7
+    },
+    {
+      "cover-img": "../src/assets/images/3.png",
+      "title": "Best Practices for Remote Development Teams",
+      "author-img": "../src/assets/images/girl1.jpg",
+      "author-name": "Kate Brown",
+      "post-date": "2024-09-15",
+      "hashtags": ["#RemoteWork", "#Programming", "#Teamwork"],
+      "readtime": 5
+    },
+    {
+      "cover-img": "../src/assets/images/4.jpg",
+      "title": "Building a Culture of Knowledge Sharing in Software Teams",
+      "author-img": "../src/assets/images/girl2.jpg",
+      "author-name": "Mike Anderson",
+      "post-date": "2024-08-30",
+      "hashtags": ["#KnowledgeSharing", "#CodingCulture", "#Developers"],
+      "readtime": 8
+    }
+  ]
+  
