@@ -1,8 +1,10 @@
+import PropTypes from "prop-types";
+import { GoBookmark } from "react-icons/go";
 
-const Blog = ({ blog }) => {
+
+const Blog = ({ blog, addToBookMark, handleReadTime }) => {
     const { title, cover_img, author_img, author_name, post_date, hashtags, readtime } = blog
-    console.log(blog)
-    console.log(cover_img)
+
     return (
         <div className="p-2 border-b-2 rounded-md my-2 space-y-3">
             <img className="rounded-lg" src={cover_img} alt={`cover photo: ${title}`} />
@@ -18,8 +20,14 @@ const Blog = ({ blog }) => {
                     </div>
                 </div>
                 {/* time to read */}
-                <div>
+                <div className="flex gap-1 items-center">
                     <h3>{readtime} min read</h3>
+
+                    <button
+                        className="text-xl cursor-pointer"
+                        onClick={() => addToBookMark(blog)}><GoBookmark ></GoBookmark>
+                    </button>
+
                 </div>
             </div>
 
@@ -27,9 +35,18 @@ const Blog = ({ blog }) => {
             <h1 className="text-3xl font-bold">{title}</h1>
 
             <p>{hashtags.map((hash, index) => <span className="text-gray-500" key={index}> {hash} </span>)}</p>
-            <a href="">Mark as read</a>
+            <button
+                onClick={() => handleReadTime(readtime)}
+                className="underline text-blue-500"
+            >Mark as read</button>
         </div>
     );
 };
+
+Blog.propTypes = {
+    blog: PropTypes.obj,
+    addToBookMark: PropTypes.func,
+    handleReadTime: PropTypes.func
+}
 
 export default Blog;
