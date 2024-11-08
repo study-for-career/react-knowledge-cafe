@@ -18,7 +18,7 @@ const Blogs = ({ handleAddToBookmark, handleReadTime }) => {
 
     return (
         <div className="w-2/3">
-            <h2>Blogs: {blogs.length}</h2>
+            <h2 className="p-3">Blogs: {blogs.length}</h2>
             {
                 blogs.map(blog => {
                     return <Blog
@@ -33,8 +33,9 @@ const Blogs = ({ handleAddToBookmark, handleReadTime }) => {
     );
 };
 
-Blogs.propType = {
-    handleAddToBookmark: PropTypes.function
+Blogs.propTypes = {
+    handleAddToBookmark: PropTypes.func,
+    handleReadTime: PropTypes.func
 }
 
 export default Blogs;

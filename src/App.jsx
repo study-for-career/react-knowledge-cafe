@@ -23,7 +23,7 @@ function App() {
     <>
       <div className='mx-4'>
         <Header></Header>
-        <div className='flex py-2 gap-2'>
+        <div className='flex py-2 gap-6'>
           <Blogs handleAddToBookmark={addToBookMark} handleReadTime={handleReadTime}></Blogs>
           <Bookmarks bookmarks={bookmarks} readtime={readtime}></Bookmarks>
         </div>

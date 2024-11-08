@@ -1,9 +1,9 @@
 [
     {
       "id" : 1,
-      "cover_img": "../src/assets/images/1.jpg",
+      "cover_img": "https://i.ibb.co.com/ZGKLmCD/1.jpg",
       "title": "The Power of Mindfulness for Developer Productivity",
-      "author_img": "../src/assets/images/boy1.png",
+      "author_img": "https://i.ibb.co.com/hBtX40Y/boy1.png",
       "author_name": "Sarah Lee",
       "post_date": "2024-10-01",
       "hashtags": ["#Mindfulness", "#Productivity", "#Developers"],
@@ -11,9 +11,9 @@
     },
     {
       "id" : 2,
-      "cover_img": "../src/assets/images/2.png",
+      "cover_img": "https://i.ibb.co.com/Z8WHK01/2.png",
       "title": "Unlocking Creative Thinking for Software Solutions",
-      "author_img": "../src/assets/images/boy2.png",
+      "author_img": "https://i.ibb.co.com/PrkqV83/boy2.jpg",
       "author_name": "David Jones",
       "post_date": "2024-09-25",
       "hashtags": ["#CreativeCoding", "#ProblemSolving", "#Software"],
@@ -21,9 +21,9 @@
     },
     {
       "id" : 3,
-      "cover_img": "../src/assets/images/3.png",
+      "cover_img": "https://i.ibb.co.com/5LGStyg/3.png",
       "title": "Best Practices for Remote Development Teams",
-      "author_img": "../src/assets/images/girl1.jpg",
+      "author_img": "https://i.ibb.co.com/MDM9ZMV/girl1.jpg",
       "author_name": "Kate Brown",
       "post_date": "2024-09-15",
       "hashtags": ["#RemoteWork", "#Programming", "#Teamwork"],
@@ -31,9 +31,9 @@
     },
     {
       "id" : 4,
-      "cover_img": "../src/assets/images/4.jpg",
+      "cover_img": "https://i.ibb.co.com/pbPNhkD/4.jpg",
       "title": "Building a Culture of Knowledge Sharing in Software Teams",
-      "author_img": "../src/assets/images/girl2.jpg",
+      "author_img": "https://i.ibb.co.com/DKCmYL5/girl2.jpg",
       "author_name": "Mike Anderson",
       "post_date": "2024-08-30",
       "hashtags": ["#KnowledgeSharing", "#CodingCulture", "#Developers"],

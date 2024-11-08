@@ -7,7 +7,7 @@ const Blog = ({ blog, addToBookMark, handleReadTime }) => {
 
     return (
         <div className="p-2 border-b-2 rounded-md my-2 space-y-3">
-            <img className="rounded-lg" src={cover_img} alt={`cover photo: ${title}`} />
+            <img className="rounded-lg w-full" src={cover_img} alt={`cover photo: ${title}`} />
             {/* /Author area */}
             <div className="flex justify-between 
                 items-center">
